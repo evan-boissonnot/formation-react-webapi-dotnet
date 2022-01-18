@@ -1,0 +1,12 @@
+D:\Works\Formations\En cours\Mistra\Orsys\React + webapi dotnet\formation-react-webapi-dotnet\api\webapi dotnet\SuiviDrone.Web.API.UI\SuiviDrones.API.Models\bin\Debug\net6.0\SuiviDrones.API.Models.deps.json
+D:\Works\Formations\En cours\Mistra\Orsys\React + webapi dotnet\formation-react-webapi-dotnet\api\webapi dotnet\SuiviDrone.Web.API.UI\SuiviDrones.API.Models\bin\Debug\net6.0\SuiviDrones.API.Models.dll
+D:\Works\Formations\En cours\Mistra\Orsys\React + webapi dotnet\formation-react-webapi-dotnet\api\webapi dotnet\SuiviDrone.Web.API.UI\SuiviDrones.API.Models\bin\Debug\net6.0\SuiviDrones.API.Models.pdb
+D:\Works\Formations\En cours\Mistra\Orsys\React + webapi dotnet\formation-react-webapi-dotnet\api\webapi dotnet\SuiviDrone.Web.API.UI\SuiviDrones.API.Models\obj\Debug\net6.0\SuiviDrones.API.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\Works\Formations\En cours\Mistra\Orsys\React + webapi dotnet\formation-react-webapi-dotnet\api\webapi dotnet\SuiviDrone.Web.API.UI\SuiviDrones.API.Models\obj\Debug\net6.0\SuiviDrones.API.Models.AssemblyInfoInputs.cache
+D:\Works\Formations\En cours\Mistra\Orsys\React + webapi dotnet\formation-react-webapi-dotnet\api\webapi dotnet\SuiviDrone.Web.API.UI\SuiviDrones.API.Models\obj\Debug\net6.0\SuiviDrones.API.Models.AssemblyInfo.cs
+D:\Works\Formations\En cours\Mistra\Orsys\React + webapi dotnet\formation-react-webapi-dotnet\api\webapi dotnet\SuiviDrone.Web.API.UI\SuiviDrones.API.Models\obj\Debug\net6.0\SuiviDrones.API.Models.csproj.CoreCompileInputs.cache
+D:\Works\Formations\En cours\Mistra\Orsys\React + webapi dotnet\formation-react-webapi-dotnet\api\webapi dotnet\SuiviDrone.Web.API.UI\SuiviDrones.API.Models\obj\Debug\net6.0\SuiviDrones.API.Models.dll
+D:\Works\Formations\En cours\Mistra\Orsys\React + webapi dotnet\formation-react-webapi-dotnet\api\webapi dotnet\SuiviDrone.Web.API.UI\SuiviDrones.API.Models\obj\Debug\net6.0\ref\SuiviDrones.API.Models.dll
+D:\Works\Formations\En cours\Mistra\Orsys\React + webapi dotnet\formation-react-webapi-dotnet\api\webapi dotnet\SuiviDrone.Web.API.UI\SuiviDrones.API.Models\obj\Debug\net6.0\SuiviDrones.API.Models.pdb
+D:\Works\Formations\En cours\Mistra\Orsys\React + webapi dotnet\formation-react-webapi-dotnet\api\webapi dotnet\SuiviDrone.Web.API.UI\SuiviDrones.API.Models\obj\Debug\net6.0\SuiviDrones.API.Models.csproj.AssemblyReference.cache
+D:\Works\Formations\En cours\Mistra\Orsys\React + webapi dotnet\formation-react-webapi-dotnet\api\webapi dotnet\SuiviDrone.Web.API.UI\SuiviDrones.API.Models\bin\Debug\net6.0\ref\SuiviDrones.API.Models.dll
