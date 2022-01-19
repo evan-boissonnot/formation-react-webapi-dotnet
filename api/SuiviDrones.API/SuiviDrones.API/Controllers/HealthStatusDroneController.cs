@@ -16,7 +16,7 @@ namespace SuiviDrones.API.Controllers
 
             var list = repo.GetAll();
 
-            return this.Ok();
+            return this.Ok(list);
         }
         #endregion
     }
