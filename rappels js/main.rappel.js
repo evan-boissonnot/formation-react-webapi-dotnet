@@ -12,7 +12,7 @@ const monDrone = new SuperDrone();
 monDrone.matricule = '1';
 
 console.log('monDrone.matricule', monDrone.matricule);
-console.log('this.matricule', this.matricule);
+console.log('this.matricule', this.matricule, window.matricule);
 
 function Camion() {
     this.length = 300;
