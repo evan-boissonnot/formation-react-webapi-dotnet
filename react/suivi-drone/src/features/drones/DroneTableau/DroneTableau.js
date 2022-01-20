@@ -1,4 +1,7 @@
 const DroneTableau = props => {
+    // console.log('drones', props.items);
+    const lignes = props.items.map(item => <tr><td>{item.id}</td><td>{item.matricule}</td></tr>);
+
     return (
     <table>
         <tbody>
@@ -7,6 +10,7 @@ const DroneTableau = props => {
                 <td> { props.item.matricule }</td>
                 <td> { props.item.status.libelle }</td>
             </tr> */}
+            { lignes }
         </tbody>
     </table>
     );

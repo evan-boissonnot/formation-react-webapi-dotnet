@@ -5,8 +5,6 @@ export class DroneService {
         const response = await fetch(apiUrl);
         const droides = await response.json();
 
-        console.log(droides);
-
         return droides;
     }
 }

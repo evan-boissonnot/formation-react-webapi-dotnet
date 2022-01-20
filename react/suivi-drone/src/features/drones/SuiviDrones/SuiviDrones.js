@@ -1,18 +1,22 @@
 import DroneTableau from "../DroneTableau/DroneTableau";
 import { DroneService } from "../services/drone-service";
+import {useState} from "react";
 
 const SuiviDrones = props => {
-//const SuiviDrones = function(props)  {
+    //const SuiviDrones = function(props)  {
     //console.log('SuiviDrones', this);
+    // let drones = [];
+    const [drones, setDrones] = useState([]);
 
     const loadDrones = async () => {
         const service = new DroneService();
-        const drones = await service.getAll();
-    
-        console.info(drones);
-    }
+        const result = await service.getAll();
 
-    
+        setDrones(result);
+        //console.info(drones);
+    };
+
+
 
     // const drone = {
     //     id: 1,
@@ -25,10 +29,12 @@ const SuiviDrones = props => {
 
     return (
         <div>
-            <h1>{ props.title }</h1>
+            <h1 className="titre">{props.title}</h1>
+            <button onClick={loadDrones}>Recharger les drones</button>
             <DroneTableau items={drones}></DroneTableau>
         </div>
     );
 };
 
 export default SuiviDrones;
+
