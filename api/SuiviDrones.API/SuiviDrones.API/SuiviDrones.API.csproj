@@ -1,9 +1,10 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>3aac6551-9759-4f2f-9046-6b418dc1ac04</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,6 +13,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SuiviDrones.Api.Application\SuiviDrones.Api.Application.csproj" />
+    <ProjectReference Include="..\SuiviDrones.Api.DataLayers\SuiviDrones.Api.DataLayers.csproj" />
+    <ProjectReference Include="..\SuiviDrones.API.Interfaces\SuiviDrones.API.Interfaces.csproj" />
     <ProjectReference Include="..\SuiviDrones.API.Models\SuiviDrones.API.Models.csproj" />
   </ItemGroup>
 

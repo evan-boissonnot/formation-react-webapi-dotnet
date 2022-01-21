@@ -12,9 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SuiviDrones.Api.DataLayers\SuiviDrones.Api.DataLayers.csproj" />
     <ProjectReference Include="..\SuiviDrones.API.Interfaces\SuiviDrones.API.Interfaces.csproj" />
-    <ProjectReference Include="..\SuiviDrones.API.Models\SuiviDrones.API.Models.csproj" />
   </ItemGroup>
 
 </Project>

@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace SuiviDrones.API.Interfaces
 {
-    public interface IHealthStatusDroneRepository
+    public interface IDroneDataLayer
     {
-        List<HealthStatusDrone> GetAll();
+        List<Drone> GetAll();
     }
 }

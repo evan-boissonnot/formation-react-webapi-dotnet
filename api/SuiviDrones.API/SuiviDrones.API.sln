@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecouverteInjectionDependan
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuiviDrones.API.Interfaces", "SuiviDrones.API.Interfaces\SuiviDrones.API.Interfaces.csproj", "{EC7FE066-F3FB-4BC8-BA89-7ABEDCBFB00B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuiviDrones.Api.DataLayers", "SuiviDrones.Api.DataLayers\SuiviDrones.Api.DataLayers.csproj", "{BA1B965E-5CEC-4CC2-B6C7-0FCFE09ADE57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,10 @@ Global
 		{EC7FE066-F3FB-4BC8-BA89-7ABEDCBFB00B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC7FE066-F3FB-4BC8-BA89-7ABEDCBFB00B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC7FE066-F3FB-4BC8-BA89-7ABEDCBFB00B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA1B965E-5CEC-4CC2-B6C7-0FCFE09ADE57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA1B965E-5CEC-4CC2-B6C7-0FCFE09ADE57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA1B965E-5CEC-4CC2-B6C7-0FCFE09ADE57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA1B965E-5CEC-4CC2-B6C7-0FCFE09ADE57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +55,7 @@ Global
 		{BDC70DA8-7256-421C-9746-8D6DF76631F6} = {696A152F-BF63-4973-AA5F-B41A68208F39}
 		{10947B8A-0048-4AB9-8AE4-79B7B4D39536} = {696A152F-BF63-4973-AA5F-B41A68208F39}
 		{EC7FE066-F3FB-4BC8-BA89-7ABEDCBFB00B} = {696A152F-BF63-4973-AA5F-B41A68208F39}
+		{BA1B965E-5CEC-4CC2-B6C7-0FCFE09ADE57} = {696A152F-BF63-4973-AA5F-B41A68208F39}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E464EC0E-8E75-42DB-A7D8-125D790800A8}

@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SuiviDrones.API.Models\SuiviDrones.API.Models.csproj" />
+  </ItemGroup>
+
 </Project>

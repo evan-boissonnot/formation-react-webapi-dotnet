@@ -1,4 +1,5 @@
-﻿using SuiviDrones.API.Models;
+﻿using SuiviDrones.API.Interfaces;
+using SuiviDrones.API.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace SuiviDrones.Api.Application
 {
-    public class HealthStatusDroneRepository
+    public class HealthStatusDroneRepository : IHealthStatusDroneRepository
     {
         #region Public methods
         public List<HealthStatusDrone> GetAll()
