@@ -22,8 +22,9 @@ namespace SuiviDrones.API.Controllers
 
         #region Public methods
         [HttpGet]
-        public IActionResult Get()
+        public IActionResult Get(string matriculeLike)
         {
+            #region Pour exemple
             //List<Drone> listA = new List<Drone>();
 
             //var listD = new List<Drone>();
@@ -38,13 +39,19 @@ namespace SuiviDrones.API.Controllers
             //}; // List générique, qu'on a typé avec le type Drone
 
             //List<int> ids = new() { 1, 2, 3 };
+            #endregion
 
             IActionResult result = this.BadRequest();
 
             try
             {
-                var list = this.repository.GetAll();
-                result = this.Ok(list);
+                var list = this.repository.GetAll(); // Normalement on passe le filtre au repo qui le passera au Datalayer
+                // ATTENTION CONTRE PERFORMANCE !!!!!!! A NE JAMAIS FAIRE
+                var query = from item in list
+                            where item.Matricule.StartsWith(matriculeLike)
+                            select item;
+                // FIN ATTENTION
+                result = this.Ok(query.ToList());
             }
             catch (Exception)
             {

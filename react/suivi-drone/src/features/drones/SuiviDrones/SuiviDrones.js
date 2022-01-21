@@ -16,8 +16,6 @@ const SuiviDrones = props => {
         //console.info(drones);
     };
 
-
-
     // const drone = {
     //     id: 1,
     //     matricule: 'XD4520',

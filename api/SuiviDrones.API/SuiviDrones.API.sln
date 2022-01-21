@@ -3,19 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuiviDrones.API", "SuiviDrones.API\SuiviDrones.API.csproj", "{86594812-E310-4BE4-92E9-DBD763AF5941}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuiviDrones.API", "SuiviDrones.API\SuiviDrones.API.csproj", "{86594812-E310-4BE4-92E9-DBD763AF5941}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuiviDrones.API.Models", "SuiviDrones.API.Models\SuiviDrones.API.Models.csproj", "{BDC70DA8-7256-421C-9746-8D6DF76631F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuiviDrones.API.Models", "SuiviDrones.API.Models\SuiviDrones.API.Models.csproj", "{BDC70DA8-7256-421C-9746-8D6DF76631F6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{696A152F-BF63-4973-AA5F-B41A68208F39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuiviDrones.Api.Application", "SuiviDrones.Api.Application\SuiviDrones.Api.Application.csproj", "{10947B8A-0048-4AB9-8AE4-79B7B4D39536}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuiviDrones.Api.Application", "SuiviDrones.Api.Application\SuiviDrones.Api.Application.csproj", "{10947B8A-0048-4AB9-8AE4-79B7B4D39536}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecouverteInjectionDependances", "ConsoleApp1\DecouverteInjectionDependances.csproj", "{DB24B17D-B894-4FCC-9F3C-AC3C2A22DE1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecouverteInjectionDependances", "ConsoleApp1\DecouverteInjectionDependances.csproj", "{DB24B17D-B894-4FCC-9F3C-AC3C2A22DE1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuiviDrones.API.Interfaces", "SuiviDrones.API.Interfaces\SuiviDrones.API.Interfaces.csproj", "{EC7FE066-F3FB-4BC8-BA89-7ABEDCBFB00B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuiviDrones.API.Interfaces", "SuiviDrones.API.Interfaces\SuiviDrones.API.Interfaces.csproj", "{EC7FE066-F3FB-4BC8-BA89-7ABEDCBFB00B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuiviDrones.Api.DataLayers", "SuiviDrones.Api.DataLayers\SuiviDrones.Api.DataLayers.csproj", "{BA1B965E-5CEC-4CC2-B6C7-0FCFE09ADE57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SuiviDrones.Api.DataLayers", "SuiviDrones.Api.DataLayers\SuiviDrones.Api.DataLayers.csproj", "{BA1B965E-5CEC-4CC2-B6C7-0FCFE09ADE57}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9C269F7C-2889-4A64-AB1A-A461B0670FC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuiviDrones.Tests.Web", "SuiviDrones.Tests.Web\SuiviDrones.Tests.Web.csproj", "{EA66DB32-14EB-4F09-A672-873D09A36DC2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,6 +51,10 @@ Global
 		{BA1B965E-5CEC-4CC2-B6C7-0FCFE09ADE57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA1B965E-5CEC-4CC2-B6C7-0FCFE09ADE57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BA1B965E-5CEC-4CC2-B6C7-0FCFE09ADE57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA66DB32-14EB-4F09-A672-873D09A36DC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA66DB32-14EB-4F09-A672-873D09A36DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA66DB32-14EB-4F09-A672-873D09A36DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA66DB32-14EB-4F09-A672-873D09A36DC2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,6 +64,7 @@ Global
 		{10947B8A-0048-4AB9-8AE4-79B7B4D39536} = {696A152F-BF63-4973-AA5F-B41A68208F39}
 		{EC7FE066-F3FB-4BC8-BA89-7ABEDCBFB00B} = {696A152F-BF63-4973-AA5F-B41A68208F39}
 		{BA1B965E-5CEC-4CC2-B6C7-0FCFE09ADE57} = {696A152F-BF63-4973-AA5F-B41A68208F39}
+		{EA66DB32-14EB-4F09-A672-873D09A36DC2} = {9C269F7C-2889-4A64-AB1A-A461B0670FC2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E464EC0E-8E75-42DB-A7D8-125D790800A8}
